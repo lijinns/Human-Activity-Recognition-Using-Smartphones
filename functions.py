@@ -117,7 +117,7 @@ def report(y_test,pred):
     print(report,'\n\n')
     return accuracy,precision,recall,fmeasure  
 
-path = r'C:\Users\lijin\Desktop\Sem VI\DSML\proj\\'
+path = r'Enter path here'
 train_df,trainlabel_df,test_df = get_data(path)
 train_df,test_df = clean_data(train_df,trainlabel_df,test_df)
 

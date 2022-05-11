@@ -132,3 +132,14 @@ def fit_model(modelname,selected_features = 559):
     pred = grid_search.predict(X_test)
     accuracy,precision,recall,fmeasure = report(y_test,pred)
     return accuracy,precision,recall,fmeasure
+
+#prediction on test data 
+def predict_model(modelname,selected_features = 559):
+    print('Model : {}, Selected Features: {}\n'.format(model_dict[modelname],selected_features))
+    print('***** Fitting the Model *****\n')
+    grid_search = return_model(modelname)
+    new_train_df = feature_selection(train_df,selected_features)
+    new_test_df = feature_selection(test_df,selected_features)
+    grid_search.fit(new_train_df, trainlabel_df['Activity'].values.reshape(-1))
+    pred = grid_search.predict(new_test_df)
+    return pred

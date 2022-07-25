@@ -1,6 +1,6 @@
 # Human-Activity-Recognition-Using-Smartphones
 
-The data set of 'Human Activity Recognition using Smartphones' task is freely available in web. Download the same.
+The data set of 'Human Activity Recognition using Smartphones' task is freely available in web. Download the dataset.
 
 The functions.py file contains necessary functions to select best model.
 

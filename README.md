@@ -11,3 +11,5 @@ Alternatively, main_parallel.py will help in the faster parallel selection. Synt
 The results.py file can be used to predict the labels on test data.
 
 The code.ipynb file has the jupyter notebook implementation of the same.
+
+Paper: https://drive.google.com/file/d/16kt0OSPYqpq8SR0yx_vBpp5flzf7dGr3/view?usp=sharing
